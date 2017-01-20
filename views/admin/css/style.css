@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin:0 auto;
+    position:relative;
+    width:100%;
+}
+p,h3,h4 {
+    font-family:sans-serif;
+    color:#242424;
+    padding:5px;
+    margin:5px;
+}
+.wrapper {
+    padding-top:25vh;
+    margin:0 auto;
+    position:relative;
+    width:20%;
+}
+.wrapper-panel {
+    padding-top:20px;
+    margin:0 auto;
+    position:relative;
+    width:80%;
+}
+fieldset {
+    padding:30px;
+}
+
+.editBlock {
+    width:100%;
+    margin:0 auto;
+    position: relative;
+    color:#343438;
+    border:1px solid #a5a5a5;
+    padding:20px;
+    margin-bottom:10px;
+}
+.edit-text textarea {
+    width:60%;
+    height:210px;
+    margin-bottom:20px;
+    display: block;
+
+}
+
+td {
+    height:50px;
+    width:150px;
+    text-align: center;
+}
+.edit-portfolio textarea {
+    width:175px;
+    display: block;
+    
+    
+}
+input[name="title"] {
+    display:block;
+    margin-bottom:20px;
+}
+label {
+    color:#565656;
+}
+#error {
+    height:1em;
+}
+label.error {
+    color:#1c6f36;
+    font-size:13px;
+}
